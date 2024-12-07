@@ -1,0 +1,37 @@
+.gradient-custom-2 {
+  background: #ffffff; /* Cambia el fondo a blanco */
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+      height: 100vh !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+      border-top-right-radius: .3rem;
+      border-bottom-right-radius: .3rem;
+  }
+}
+
+.custom-toggle-password {
+  height: 100%; /* Ajusta la altura al 100% del contenedor */
+  font-size: 1.2rem; /* Ajusta el tamaño del icono según sea necesario */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.permission-checkbox {
+  margin-right: 10px; /* Espacio a la derecha del checkbox */
+}
+
+.form-check-label {
+  margin-left: 5px; /* Espacio a la izquierda de la etiqueta del checkbox */
+}
+#forgotPasswordModal {
+  margin: auto; /* Add this to center the modal horizontally */
+  top: 50%; /* Add this to center the modal vertically */
+  transform: translateY(-50%); /* Add this to center the modal vertically */
+}
